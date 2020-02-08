@@ -3,7 +3,7 @@
 
 """
 ============================================
-  Analyse Woman / Man balance in Politics
+  Analyse Femme / Femme balance in Politics
 ============================================
 """
 import argparse
