@@ -14,7 +14,7 @@ def launch_analysis(data_file):
     try:
         with open(path_to_file,"r") as f:
             preview = f.readline()
-            lg.debug("Yeah! We managed to read the file. Here is a preview: {%s}" % preview)
+            lg.debug("Yeah! We managed todt read the file. Here is a preview: {%s}" % preview)
     except FileNotFoundError as e:
         lg.critical("Ow :( The file was not found. Here is the original message of the exception : {%s}" % e)
     except:
