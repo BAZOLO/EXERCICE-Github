@@ -53,4 +53,4 @@ if __name__ == '__main__':
             c_an.launch_analysis(DATAFILE, ARGS.byparty, ARGS.info, ARGS.displaynames,
                            ARGS.searchname, ARGS.index, ARGS.groupfirst, ARGS.byage)
     finally:
-        lg.info('#################### Analysis is over ######################')
+        lg.info('##################### Analysis is over ######################')
